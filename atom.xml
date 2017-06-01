@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Varna Labs</title>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="http://varnalabs.io/blog/"/>
+  <updated>2017-06-01T09:14:37.201Z</updated>
+  <id>http://varnalabs.io/blog/</id>
+  
+  <author>
+    <name>Akshat Joshi</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Approaches to Learning Programming</title>
+    <link href="http://varnalabs.io/blog/2017/06/01/VarnaLabs-3/"/>
+    <id>http://varnalabs.io/blog/2017/06/01/VarnaLabs-3/</id>
+    <published>2017-06-01T06:41:00.000Z</published>
+    <updated>2017-06-01T09:14:37.201Z</updated>
+    
+    <content type="html"><![CDATA[<p>There are two general approaches to learning programming, both with their own pros and cons.<br><a id="more"></a></p>
+<h3 id="The-Top-Down-Approach"><a href="#The-Top-Down-Approach" class="headerlink" title="The Top-Down Approach"></a>The Top-Down Approach</h3><p>With a top-down approach, the goal is to learn by creating significant pieces of real software.</p>
+<p>Most self-directed learners take the top-down approach when they first start learning to code. They want to make something cool, straight away – maybe a 3D game, or a nice-looking interactive website.</p>
+<p>The fastest way to make something significant is to follow a tutorial – specifically, a very detailed tutorial. If you follow the set of steps exactly, you are guaranteed to create something.</p>
+<h4 id="Top-Down-The-Good"><a href="#Top-Down-The-Good" class="headerlink" title="Top-Down: The Good"></a>Top-Down: The Good</h4><p>The beauty of the top-down approach is that you create something quickly. It feels good to produce a real piece of software with your own fingertips. You can get addicted to that feeling, and it can help you push through the learning process.</p>
+<h4 id="Top-Down-The-Bad"><a href="#Top-Down-The-Bad" class="headerlink" title="Top-Down: The Bad"></a>Top-Down: The Bad</h4><p>The problem with the top-down approach is that it does not teach fundamentals.</p>
+<p>At the end of the tutorial, you might not understand how your creation works at all. If the tutorial is not detailed enough, you might struggle to fill in the gaps. If you deviate from the instructions in the slightest way, it will break, and you might not be able to diagnose the problem.</p>
+<p>It’s like being thrown straight into the deep end of the pool, before you’ve learned to swim.</p>
+<p>Arne Brasseur reflects on teaching the top-down approach:</p>
+<div class="tip"> I have taught many people Ruby on Rails. Rails is tremendously complex [but] in a few sessions you can teach a person to create an interactive website backed by a database. It’s frustrating to teach because you’re walking a tight rope. Just follow the steps. Don’t peek under the covers. Don’t stare into the abyss. But that feeling of instantly being productive is what draws people in, what makes them think, “hey, maybe I can do this”. </div>
+
+<h2 id="The-Bottom-Up-Approach"><a href="#The-Bottom-Up-Approach" class="headerlink" title="The Bottom-Up Approach"></a>The Bottom-Up Approach</h2><p>With a bottom-up approach, the goal is to learn all the fundamental concepts of programming.</p>
+<p>The bottom-up approach is more popular in formal programming courses, like those in university or college. It involves starting from zero and learning one concept at a time. The idea is to build a solid foundation of general programming skills, which can be used to make any kind of software.</p>
+<h3 id="Bottom-Up-The-Good"><a href="#Bottom-Up-The-Good" class="headerlink" title="Bottom-Up: The Good"></a>Bottom-Up: The Good</h3><p>The beauty of the bottom-up approach is that you learn truly general programming skills. It doesn’t matter if you’re making a 3D game, or an interactive website – the fundamental concepts of programming apply to everything.</p>
+<p>Each individual concept is easier to learn, because you can study it in isolation. If the bottom-up course you’re taking is structured well, you won’t be bombarded with 1000 different concepts at once. You should be presented with one new concept at a time, in an order that is easy to digest. Basic concepts come first (like values and variables), before more-complicated concepts (like functions) that build on top.</p>
+<h3 id="Bottom-Up-The-Bad"><a href="#Bottom-Up-The-Bad" class="headerlink" title="Bottom-Up: The Bad"></a>Bottom-Up: The Bad</h3><p>The problem with the bottom-up approach is that it’s slow. It takes a long time to learn all the skills necessary to make something significant. A typical bottom-up schedule might look like this:</p>
+<p>First you learn about strings, and integers, and variables.<br>Then you learn about booleans, and branching, and looping.<br>Then you learn about arrays and structs.<br>Then you learn about functions and control flow.<br>Then the teacher tells you that most professionals don’t code this way anymore.<br>So you start learning about classes, and instances, and instance variables, and methods, and inheritance, and a whole bunch of other object-oriented programming concepts.<br>Then you try to unlearn the way you originally learned to write code, and learn to write code in the new object-oriented way.<br>It could take you months or years to complete this schedule, and it still won’t give you all the skills to make a 2D game or interactive website!</p>
+<p>When it takes forever, and you’re not creating anything interesting, it can become boring. A lot of people find that studying control flow for a week is just not as enjoyable as making a website in a day. If you’re not getting that feeling of accomplishment, you’re less likely to continue learning.</p>
+<h3 id="Which-Approach-Is-Best"><a href="#Which-Approach-Is-Best" class="headerlink" title="Which Approach Is Best?"></a>Which Approach Is Best?</h3><p>Neither approach is better than the other. To become a skilled programmer, you need both.</p>
+<p>You need experience creating software, even if you don’t fully understand it. You need the motivation to continue learning, and that feeling of accomplishment can help. Studying concepts and theory alone is not enough to prepare you to work on real software projects.</p>
+<p>You also need fundamental programming skills. The need to be able to understand and debug code – both your own code, and code written by other developers. You need to be able to write code in situations that you’ve never encountered before, because there will not be a tutorial for every different problem you need to solve.</p>
+<p>The best approach is to alternate between the two.</p>
+<p>Feeling overwhelmed, like you have no idea what your code is doing? Switch to a bottom-up approach. Go back to basics, and learn precisely how your code works. Try to fill in the gaps in your knowledge.</p>
+<p>Getting bored of studying abstract programming concepts? Switch to a top-down approach. Create something small, like a simple website or game. Try to exercise all the concepts you’ve learned, and get that feeling of accomplishment.</p>
+<p>Eventually the two approaches meet in the middle. You learn a lot about how your code works under the hood, which gives you the confidence to solve any problem. And you learn how programming concepts and theories apply to real-world projects – where to use them, where not to use them, and how to use them well.</p>
+<p>This learning process never ends. Software development is so complicated that no single person understands everything, which means there is always something new to learn. So don’t worry too much about what you don’t know yet – it just takes time. My advice is to relax, and enjoy the ride.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;There are two general approaches to learning programming, both with their own pros and cons.&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Blog Documentation Post</title>
+    <link href="http://varnalabs.io/blog/2017/05/31/hello-world/"/>
+    <id>http://varnalabs.io/blog/2017/05/31/hello-world/</id>
+    <published>2017-05-31T18:02:00.000Z</published>
+    <updated>2017-06-01T08:01:47.502Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is the first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is the first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
